@@ -176,3 +176,31 @@
 
 
 /* features gamer style ends */
+
+
+/* online game styles starts */
+.online-game-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.online-game-container h2{
+    font-size: 36px;
+}
+.funny-videos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    /* justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto; */
+}
+.card:hover{
+   border: 5px solid red;
+   background-color: black;
+   border-radius: 16px;
+
+}
+
+/* online game styles ends  */

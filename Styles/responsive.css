@@ -67,7 +67,12 @@
     
     }
     
-   
+   /* online games styles  */
+   .funny-videos{
+    grid-template-columns: 1fr;
+    place-items: center;
+
+}
     
    
 }
@@ -131,6 +136,13 @@
     
     
     }
+
+    /* online games styles  */
+   .funny-videos{
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+
+}
 
 }
 
