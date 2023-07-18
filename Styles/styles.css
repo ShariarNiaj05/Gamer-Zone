@@ -1,11 +1,11 @@
 /* Globar styles  */
-*{
+* {
     box-sizing: border-box;
 }
-.special-text{
 
-}
-.primary-btn{
+.special-text {}
+
+.primary-btn {
     /* font-size: 22px; */
     padding: 12px;
     border-radius: 10px;
@@ -14,7 +14,8 @@
     border-color: 0ca3d1;
     margin: 0px 10px;
 }
-.secondary-btn{
+
+.secondary-btn {
     /* font-size: 22px; */
     padding: 12px;
     border-radius: 10px;
@@ -23,60 +24,64 @@
     border-color: FF42A5;
     margin: 0px 10px;
 }
-.special-text{
-    background-image: linear-gradient(to bottom, #FF42A5, #58233f );
+
+.special-text {
+    background-image: linear-gradient(to bottom, #FF42A5, #58233f);
     color: transparent;
     -webkit-background-clip: text;
 }
 
 
 /* nav styles starts */
-.logo-container{
+.logo-container {
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
 
-.logo-icon{
-width: 50%;
-display: flex;
-align-items: center;
-gap: 20px;
-}
-.logo-icon img{
-width: 60px;
-height: 60px;
-object-fit: contain;
-
+.logo-icon {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-.logo-icon p{
-font-size: 28px;
-font-weight: 800;
+.logo-icon img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
 
 }
 
-.menus{
+.logo-icon p {
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.menus {
     width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 24px;
 }
-.menus a{
-   
-   text-decoration: none;
-   color: #FF42A5;
-   font-weight: 800;
+
+.menus a {
+
+    text-decoration: none;
+    color: #FF42A5;
+    font-weight: 800;
 }
-.menus button{
-   
-padding: 10px 20px;
-font-size: 18px;
-border-radius: 10px;
-border-color: #FF42A5;
+
+.menus button {
+
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: #FF42A5;
 }
 
 
@@ -86,35 +91,88 @@ border-color: #FF42A5;
 
 /* banner styles start  */
 
-.banner-container{
+.banner-container {
 
     display: flex;
     width: 100%;
     min-height: 500px;
-   /* padding: 10px 90px; */
-   align-items: center;
+    /* padding: 10px 90px; */
+    align-items: center;
 
 }
 
-.banner-text{
+.banner-text {
 
     width: 50%;
     background-image: url(../images/Group\ 14.png);
-   padding: 0 276px;
+    padding: 0 276px;
 
 }
-.banner-text h2{
+
+.banner-text h2 {
     font-size: 48px;
     font-weight: 800;
 }
 
-.banner-img{
+.banner-img {
 
-width: 50%;
+    width: 50%;
 }
-.banner-img img{
-width: 70%;
-height: 60%;
+
+.banner-img img {
+    width: 70%;
+    height: 60%;
 }
 
 /* banner styles ends  */
+
+/* features gamer style starts */
+.feature-gamer {
+    width: 100%;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dd86b327;
+
+
+}
+
+.gamer-img {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gamer-img img {
+
+    width: 100%;
+
+}
+
+.gamer-text {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: end;
+
+
+}
+
+.gamer-text h2 {
+    font-size: 36px;
+    font-weight: 800;
+
+
+}
+
+.hook {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+/* features gamer style ends */
