@@ -1,0 +1,43 @@
+/* Responsive design for mobile device */
+
+@media screen and (max-width: 576px){
+    .logo-container{
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-icon{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ 
+        }
+        .menus{
+            width: 100%;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+}
+
+
+/* Responsive design for mobile device ends here*/
+
+
+
+
+
+
+/* Responsive design for tablet device */
+
+@media screen and  (min-width: 577px) and (max-width: 992px){
+    .menus{
+        flex-direction: column;
+
+    }
+
+
+}
+/* Responsive design for tablet device ends here*/
