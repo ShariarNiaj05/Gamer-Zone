@@ -179,28 +179,40 @@
 
 
 /* online game styles starts */
-.online-game-container{
+.online-game-container {
     max-width: 1400px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 50px;
     padding: 10px auto;
 }
-.online-game-container h2{
+
+.online-game-container h2 {
     font-size: 36px;
 }
-.funny-videos{
+
+.funny-videos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
-.card:hover{
-   border: 5px solid red;
-   background-color: black;
-   border-radius: 16px;
+
+.card {
+    border: 5px solid transparent;
+    border-radius: 16px;
 
 }
-.card-text{
+
+.card:hover {
+    border: 5px solid red;
+    background-color: black;
+    border-radius: 16px;
+
+
+
+}
+
+.card-text {
     max-width: 90%;
     margin: 0 auto;
 }
@@ -208,7 +220,7 @@
 /* online game styles ends  */
 
 /* double image and text styles stats */
-.info-container{
+.info-container {
     display: flex;
     max-width: 1400px;
     margin: 0 auto;
@@ -216,121 +228,141 @@
     justify-content: center;
     align-items: center;
 }
-.text-box{
+
+.text-box {
     width: 50%;
     padding: 0 50px;
     text-align: center;
-    
+
 }
-.text-box h2{
+
+.text-box h2 {
     font-size: 42px;
-    
+
 }
-.img-box{
+
+.img-box {
     width: 50%;
     margin-left: 250px;
 
     position: relative;
-    
+
 }
-.img-box img{
+
+.img-box img {
     height: 500px;
     width: 500px;
-    
+
 }
-.small-img{
+
+.small-img {
 
     position: absolute;
     bottom: -80px;
     left: -70px;
 }
-.small-img img{
 
-   height: 250px;
-   width: 250px;
+.small-img img {
+
+    height: 250px;
+    width: 250px;
 }
 
 /* double image and text styles ends */
 
+
+
 /* careers-container starts */
-.careers-container{
-background-color: #FF42A5;
-color: white;
-display: flex;
-align-items: center;
-margin-top: 150px;
+.careers-container {
+    background-color: #FF42A5;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
 
 }
-.career-box{
+
+.career-box {
     width: 1400px;
 }
 
 .career-info {
-        width: 50%;
+    width: 50%;
     margin-bottom: 30px;
     margin-left: 250px;
 
 }
-.career-info h2{
-font-size: 48px;
+
+.career-info h2 {
+    font-size: 48px;
 }
-.career-info >  p{
-font-size: 18px;
+
+.career-info>p {
+    font-size: 18px;
 }
-.job-container{
+
+.job-container {
     display: flex;
     gap: 80px;
 }
-.postion{
-font-size: 18px;
+
+.postion {
+    font-size: 18px;
 }
-.location{
+
+.location {
     text-align: end;
     font-size: 18px;
 }
-.career-btn{
+
+.career-btn {
     margin-top: 30px;
     padding: 20px;
     font-size: 18px;
     background-color: white;
     color: #FF42A5;
-    border: none ;
+    border: none;
     border-radius: 30px;
 }
 
-.career-img{
+.career-img {
     width: 50%;
 }
-.career-img img{
+
+.career-img img {
     height: 550px;
     width: 550px;
 }
+
 /* careers-container ends */
 
 /* game type starts  */
-.game-type-container{
+.game-type-container {
     /* display: grid;
     grid-template-columns: repeat(5, 1fr); */
     display: flex;
     flex-wrap: wrap;
-padding: 50px 30px;
-gap: 30px;
-justify-content: center;
+    padding: 50px 30px;
+    gap: 30px;
+    justify-content: center;
 
 }
-.game-type:hover{
-    border:1px solid #FF42A5 ;
-    border-radius: 30px;
-    color: #FF42A5;
-}
 
-.game-type{
+.game-type {
+    border: 1px solid transparent;
     display: flex;
     align-items: center;
     gap: 10px;
     flex-basis: 300px;
 }
-.game-type img{
+
+.game-type:hover {
+    border: 1px solid #FF42A5;
+    border-radius: 30px;
+    color: #FF42A5;
+}
+
+.game-type img {
     width: 50px;
     height: 50px;
 }
@@ -339,39 +371,43 @@ justify-content: center;
 
 /* footer styles */
 
-footer{
+footer {
     min-height: 500px;
     background-color: black;
     color: white;
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.footer-logo{
+
+.footer-logo {
     text-align: center;
     justify-content: center;
     align-items: center;
     margin-left: 90px;
 }
-.footer-logo-title{
+
+.footer-logo-title {
     text-align: center;
     justify-content: center;
     align-items: center;
 }
-.footer-menu{
+
+.footer-menu {
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
 }
+
 /* .footer-icon{
     font-size: 24px;
     margin-right: 5px;
     
 } */
-.footer-icon a{
+.footer-icon a {
     font-size: 36px;
     margin-right: 5px;
     color: white;
-    
+
 }
