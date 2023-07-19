@@ -336,3 +336,42 @@ justify-content: center;
 }
 
 /* game type ends  */
+
+/* footer styles */
+
+footer{
+    min-height: 500px;
+    background-color: black;
+    color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer-logo{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
+.footer-logo-title{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.footer-menu{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/* .footer-icon{
+    font-size: 24px;
+    margin-right: 5px;
+    
+} */
+.footer-icon a{
+    font-size: 36px;
+    margin-right: 5px;
+    color: white;
+    
+}
