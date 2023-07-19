@@ -98,6 +98,38 @@
     height: 120px;
     width: 120px;
  }
+
+ /* .second-box{
+    flex-direction:column-reverse;
+ } */
+
+ /* double image styles ends  */
+
+ /* careers styles start  */
+
+ .careers-container{
+    flex-direction: column;
+    
+    }
+    .career-box{
+        width: 100%;
+    }
+
+.career-info {
+    width: 90%;
+margin-left: 10px;
+
+}
+
+.career-img{
+    width: 90%;
+}
+
+
+
+
+ /* careers styles ends  */
+
    
 }
 
